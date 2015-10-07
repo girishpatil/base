@@ -1,0 +1,49 @@
+.content{
+	text-align: center;
+	margin: 100px auto;
+}
+.content h1{
+	margin: 10px;
+}
+.content .main-content{
+	margin-top: 50px;
+}
+.popper{
+	max-height: 960px;
+	margin: 0 auto;
+}
+.popper h2{
+	margin: 10px auto;
+	display: inline-block;
+}
+.fam-ar{
+	background-color: #fff;
+	margin: 10px auto;
+	width: 40%;
+	border-radius: 5px;
+	padding: 10px;
+	border:1px solid #d9d9d9;
+	display: inline-block;
+}
+.fam-ar a{
+	color: #555;
+}
+.fam-ar a h3{
+	border-bottom: 1px solid #d9d9d9;
+	padding: 5px 0;
+}
+.fam-ar p{
+	font-size: 90%;
+	margin-top: 5px;
+}
+.cm{
+	margin: 15px 0;
+}
+.wsy-head{
+	margin-bottom: 30px
+}
+#wsy input,#wsy select{
+	font-size: 19px;
+	font-weight: 200;
+	color: #666;
+}

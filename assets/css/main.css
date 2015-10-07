@@ -1,0 +1,492 @@
+body{
+    font-family: "open sans" "open-sans";
+    font-size: 18px;
+    color: #555;
+    background-color: #f1f1f1;
+    padding:0;
+    margin: 0;
+}
+*{
+   -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+i{
+    font-family: fontawesome;
+    text-decoration: none;
+    font-style: normal;
+    margin: 2px 5px;
+    font-size: 90%;s
+    font-weight: 200;
+}
+.clear{
+    clear: both;
+    float: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+h2{
+    font-size:25px;
+    font-weight: 400; 
+}
+h3{
+    font-weight: 400;
+}
+.big-text{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 20px 0;
+}
+ul,li{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.error{
+    font-size: 14px;
+}
+.red{
+    color: red;
+}
+.orange{
+    color:#f78605;
+}
+.bg-orange{
+    background-color: #f78605;
+    color: #fff !important;
+}
+.bg-orange:hover{
+
+}
+.bg-attractive{
+    background-color: #4fc1e9;
+    color: #fff !important;
+    transition:.22s background-color;
+}
+.bg-attractive:hover{
+    background-color: #0fb1e9;
+}
+.bg-teal{
+    background-color: #21d0ad;
+    color: #fff !important;
+    transition:.22s background-color;
+}
+.bg-teal:hover{
+    background-color: #16a085;
+}
+.a-but{
+    padding: 10px 15px;
+    display: inline-table;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.a-cen{
+    text-align: center;
+}
+.a-lft{
+    text-align: left;
+}
+.a-rgt{
+    text-align: right;
+}
+.pop{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 90%
+}
+.close-dialog{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.close-dialog:hover{
+    background-color: rgba(0,0,0,.2);
+}
+
+
+
+#container{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 150px;
+}
+.container-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 150%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.logo > a{
+    color: #555;
+}
+.nav{
+    float: right;
+    margin-top: 2px;
+}
+.nav > a{
+    display: inline-block;
+    margin: 0 10px;
+    color: #777;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.cap{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.error{
+    color: red;
+}
+.notice{
+    background-color: #ddd;
+    padding:10px;
+    border:1px solid red;
+    border-radius: 3px;
+}
+.field{
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    float: none;
+    font-size: 16px;
+}
+.field > input,.field > select,.field option,.field  textarea{
+    width: 100%;
+    padding: 10px;
+    border:1px solid #d9d9d9;
+    background-color: #fff;
+    margin: 5px 0;
+    font-size: 16px !important;
+    font-family: helvetica;
+    letter-spacing: .8px !;
+}
+.widget > .field > input[type="checkbox"]{
+    opacity: 0;
+}
+.field > input[type="checkbox"]{
+    float: left;
+    margin: 10px;
+}
+.field > label{
+    float: left;
+    height: 20px;
+    margin: 5px 0;
+}
+
+input[type="checkbox"]{
+    border: initial;
+    /*opacity: 0;*/
+    float: left;
+    left: 0;
+    position: absolute;
+   
+    -webkit-appearance: checkbox;
+}
+.field input + label{
+     background: url('../img/ticktick.png');
+     background-position: 0px 0px;
+     background-size: 20px;
+     background-repeat: no-repeat;
+}
+
+.field input[type="checkbox"]:checked + label{
+    background-position: 0 -20px;
+}
+
+.field button,.field input[type="submit"]{
+    display: inline-block;
+    padding: 12px 15px;
+    border:0;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+
+.recent-add{
+    margin: 10px 0 30px 0;
+}
+.recent-add > h3{
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+}
+/*header start*/
+#header{
+    width: 100%;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.header-wrap{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+
+.mini{
+    padding: 1px 5px;
+    background:rgba(0,0,0,0.1);
+    border-radius: 4px;
+    border:1px solid #bbb;
+    font-size: 15px;
+    margin: 0 5px;
+}  
+#profile{
+    margin-bottom: 10px;
+    display: inline-block;
+} 
+.pro-image{
+    float: left;
+}
+.pro-img{
+    max-width: 140px;
+    max-height: 140px;
+    overflow: hidden;
+    padding: 5px;
+    border:1px solid #d9d9d9;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.pro-img > img , .pro-img{
+    border-radius: 50%;
+}
+
+.pro-details{
+
+}
+.pname{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*grid*/
+
+.grid{
+    width: calc(32.5% - 10px);
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 10px;
+    border:1px solid #d9d9d9;
+    color: #555;
+}
+.grid-top{
+    /*border-bottom: 1px solid #d9d9d9;*/
+    margin: 0;
+}
+.grid-top a{
+    color: #333;
+}
+.grid-bottom{
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+/*grid end*/
+
+
+/*SOCIAL ICONS DEOCO STATT*/
+.social{
+    margin: 15px 0;
+}
+.social > a{
+    width: 140px;
+    border-radius: 2px;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.social > a > i{
+    margin-right: 6px;
+}
+.social-login-fb{
+    background-color: blue;
+    color:#fff;
+}
+.social-login-gp{
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#share{
+}
+#social{
+    margin-top: 10px;
+}
+#social div > a{
+    display: inline-block;
+    background:#f1f1f1;
+    text-align: center;
+    margin: 2px 0;
+    padding: 8px;
+    font-size: 17px;
+}
+#social .fb{
+    background:blue;
+    color: #fff;
+}
+#social .gp{
+    background-color: #e74c3c;
+    color: #fff;
+}
+#social .tw{
+    background-color: #4fc1e9;
+    color: #fff;
+}
+#social .stack{
+    background-color: #f78605;
+    color: #fff;
+}
+#social .quora{
+    background-color:red;
+    color: #fff
+}
+
+
+#wsy > textarea{
+    min-height: 400px;
+}
+#wsy button[type='submit']{
+    background-color: #4fc1e9;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+/*LISt vIE GIRI NYSTAK BURNOFFR;*/
+.lav{
+    max-width: 860px;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    padding: 15px;
+    border:5px solid #d9d9d9;
+}
+.lav-title{
+    border-bottom: 1px solid #d9d9d9;
+    padding: 20px 0;
+}
+.lav-desc{
+    padding-left: 2px;
+    margin: 10px 0 15px 0;
+    line-height: 28px;
+    letter-spacing: .2px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+}
+.lav-desc img{
+    display: inline-block;
+    position: relative;
+}
+.about{
+    font-size: 16px;
+}
+.lav-about >  span{
+    margin-right: 10px;
+}
+.cm{
+    display: inline-block;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+}
+.cm .cm-wrap > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cm-vote{
+    position: absolute;
+}
+.cm-content{
+    border:1px solid #d9d9d9;
+    background-color: #fff;
+    padding: 30px 10px;
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    margin-left: 57px;
+    border-left: 3px solid #d9d9d9
+}
+.cm-desc > h3{
+    margin: 0 0 5px 0;
+}
+.cm-content > .about{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+
+/*voter widget start*/
+.voter{
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+}
+.voter a ,.voter div{
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 100%;
+    font-size: 15px;
+}
+.voter #votes{
+    font-size: 100%;
+    color: #555;
+    padding: 15px;
+    padding: 13px 10px;
+    border:1px solid transparent;
+    font-weight: 600;
+    box-shadow: 0 0 10px 2px #ddd
+}
+.voter .upvote,.voter .dwvote{
+    min-width: 20px;
+    padding:8px;
+    display: inline-block;
+    margin: 0 auto;
+    min-height: 20px;
+    line-height: 20px;
+    color: #666;
+    transition:.22s background-color;
+}
+.voter .upvote:hover,.voter .dwvote:hover{
+    background-color: #d9d9d9;
+    color: #fff;
+}
+
+.upvote{
+
+}
+
+
+/*voter widet end*/
