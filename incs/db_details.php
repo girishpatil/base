@@ -2,8 +2,8 @@
 
 
 define('host', 'localhost');
-define('user', 'root');
-define('pass', 'girish');
+define('user', 'user_name');
+define('pass', 'user_password');
 
 
 ?>
